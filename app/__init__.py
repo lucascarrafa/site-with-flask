@@ -4,6 +4,7 @@ from flask_migrate import Migrate, MigrateCommand
 
 app = Flask(__name__)
 app.config.from_object('config')
+
 manager = Manager(app)
 
 from app.controllers import default
