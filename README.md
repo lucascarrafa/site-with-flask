@@ -20,8 +20,14 @@ Para usar o script, é preciso relaxar a política de execução do sistema AllS
 PS C:\> Set-ExecutionPolicy AllSigned
 ````
 
-Para rodar a aplicação basta executar o comando:
+Para entrar no ambiente isolado execute o comando: 
 
 ```
 PS C:\> venv/Script/activate
+```
+
+E por fim para executar a aplicação, execute o comando:
+
+```
+PS C:\> python run.py runserver
 ```
